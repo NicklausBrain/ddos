@@ -5,7 +5,7 @@ DESTS=( "http://duma.gov.ru/" "http://president-sovet.ru/" "https://sovetnationa
 
 TIME="180s"
 
-while TRUE
+while 1
 do
     for DEST in ${DESTS[@]}
     do
